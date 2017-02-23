@@ -1,4 +1,4 @@
-def sort_servers(servers_list):
+def sort_server(servers_list):
 	servers_with_efficiency = []
 	for server in servers_list:
 		id, size, capacity = server

@@ -12,10 +12,11 @@ def get_possible_slices(rows, columns, lows, maxArea):
 	list_of_tuples = sorted(list_of_tuples, key = lambda x : x[0] * x[1], reverse = True)
 	return list_of_tuples
 
-print(get_possible_slices(3,5,1,6))
-print(get_possible_slices(6,7,1,5))
-print(get_possible_slices(200,250,4,12))
-print(get_possible_slices(1000,1000,6,14))
+# print(get_possible_slices(3,5,1,6))
+# print(get_possible_slices(6,7,1,5))
+# print(get_possible_slices(200,250,4,12))
+# print(get_possible_slices(1000,1000,6,14))
+
 # def parse_input(fname):
 # 	with open(fname) as f:
 # 		rows, columns, least, maxSurface = \
