@@ -1,4 +1,4 @@
-from sort_servers import sort_servers
+import sort_servers
 # import assign_pools
 # import assign_rows
 
@@ -48,7 +48,7 @@ def main(fname_in, fname_out):
 	# TODO: Sort servers by some fancy rating, 
 	# eg. efficiency = capacity/size
 
-	sorted_servers = sort_servers(servers_in)
+	sorted_servers = sort_servers.sort_server(servers_in)
 	
 	if debug:
 		print (sorted_servers)
